@@ -56,11 +56,12 @@ node server.js
 # POST http://localhost:3000/shorturls
 {
   "url": "https://example.com/very-long-page",
-  "validity": 10,
+  "validity": 30,
   "shortcode": "abc123"
 }
 
-![WhatsApp Image 2025-09-08 at 14 29 23_d2ea602e](https://github.com/user-attachments/assets/c09d6452-2762-4fd8-8892-f3da816cc905)
+<img width="1344" height="791" alt="image" src="https://github.com/user-attachments/assets/cb341d4a-bf67-4e88-9819-8eebe34a7980" />
+
 
 ## Geeting URL back. 
 ## GET http://localhost:3000/shorturls/abc123
