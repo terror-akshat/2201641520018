@@ -19,16 +19,14 @@ It demonstrates authentication, token management, and making authenticated API c
 
 
 ## Running the Project
-# Install dependencies
+### Install dependencies
 npm install express axios
 
 # Start the server
-node index.js
+node server.js
 
 # Visit
-http://localhost:3000/ 
-
-<img width="1377" height="812" alt="Screenshot 2025-09-08 142949" src="https://github.com/user-attachments/assets/411011a4-543f-4e77-8eda-77c411d9f3a9" />
+GET http://localhost:3000/ 
 
 ## logs
 ![WhatsApp Image 2025-09-08 at 14 30 00_40770d4f](https://github.com/user-attachments/assets/4339af36-1914-4cf1-a804-fc1cb7d134c0)
@@ -46,9 +44,16 @@ A simple Node.js + Express based **URL Shortener** with expiry and click trackin
 - Fetch statistics for each shortcode.
 ---
 
+## Running the Project
+### Install dependencies
+npm install express uuid moments
+
+# Start the server
+node server.js
+
 ## 📝 API Endpoints
 ### 1️⃣ Create a short URL
-# http://localhost:3000/shorturls
+# POST http://localhost:3000/shorturls
 {
   "url": "https://example.com/very-long-page",
   "validity": 10,
@@ -57,12 +62,8 @@ A simple Node.js + Express based **URL Shortener** with expiry and click trackin
 
 ![WhatsApp Image 2025-09-08 at 14 29 23_d2ea602e](https://github.com/user-attachments/assets/c09d6452-2762-4fd8-8892-f3da816cc905)
 
-## Geeting UrL back. 
-## http://localhost:3000/shorturls/abc123
+## Geeting URL back. 
+## GET http://localhost:3000/shorturls/abc123
 
 ![WhatsApp Image 2025-09-08 at 15 01 08_d7daa716](https://github.com/user-attachments/assets/0afe4408-b3f8-4fac-957b-2a99649d10d0)
-
-
-
-
 
